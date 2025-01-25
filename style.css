@@ -1,0 +1,302 @@
+:root {
+    --primary-color: #ff7f50;
+    --secondary-color: #ff6b81;
+    --text-color: #2f3542;
+    --bg-color: rgba(255, 255, 255, 0.9);
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('anime-girl.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    animation: backgroundAnimation 20s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    background: var(--bg-color);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    box-shadow: var(--shadow);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    animation: logoAnimation 2s infinite alternate;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero-content {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.animated-text {
+    font-size: 3rem;
+    color: var(--primary-color);
+    animation: textAnimation 3s infinite alternate;
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.animated-subtext {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    animation: subtextAnimation 3s infinite alternate;
+}
+
+@keyframes subtextAnimation {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-link {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+    color: var(--primary-color);
+    transform: translateY(-5px);
+}
+
+.section {
+    padding: 2rem 1rem;
+    background: var(--bg-color);
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    width: 90%;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-color);
+    animation: profileAnimation 5s infinite alternate;
+}
+
+@keyframes profileAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.profile-info {
+    text-align: center;
+    width: 100%;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.tag {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    animation: tagAnimation 0.5s ease-out;
+    transition: transform 0.2s, background 0.2s;
+}
+
+@keyframes tagAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tag:hover {
+    transform: scale(1.1);
+    background: var(--secondary-color);
+}
+
+.tag-input-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag-input {
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    flex: 1;
+}
+
+.add-tag-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.add-tag-btn:hover {
+    background: var(--secondary-color);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--bg-color);
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 1rem;
+    }
+    
+    .animated-text {
+        font-size: 2rem;
+    }
+    
+    .nav-links {
+        gap: 1rem;
+    }
+    
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
