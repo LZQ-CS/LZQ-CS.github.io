@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://lzq-cs.github.io</id>
     <title>LZQ的博客 • Posts by &#34;opencv&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://lzq-cs.github.io" />
     <updated>2025-03-16T08:45:01.000Z</updated>
     <category term="opencv" />
     <category term="win10系统" />
     <category term="日语" />
     <category term="hexo" />
     <entry>
-        <id>http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</id>
         <title>开始学习CV</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/"/>
         <content type="html">&lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会😀，还是创业时期的小公司好啊！！！&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACf0Nn1pKkLk0q8BJRuGlyBUojqUq4mgACCr8xGxaluVYqwylaJmtODAEAAwIAA3cAAzYE&#34; alt=&#34;IMG_3384.JPG&#34;&gt;&lt;/p&gt;
 </content>
@@ -19,9 +19,9 @@
         <updated>2025-03-16T08:45:01.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
         <title>opencv入门了解</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
         <content type="html">&lt;h3 id=&#34;opencv简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#opencv简介&#34;&gt;#&lt;/a&gt; Opencv 简介&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OpenCV&lt;/strong&gt;（&lt;strong&gt;Open Source Computer Vision Library&lt;/strong&gt;）是一个开源的计算机视觉和机器学习库，由英特尔于 1999 年发起并维护，现已成为全球计算机视觉领域最流行的工具之一。它的核心目标是提供一套通用的算法和工具，帮助开发者快速实现与图像、视频处理相关的功能。&lt;/li&gt;

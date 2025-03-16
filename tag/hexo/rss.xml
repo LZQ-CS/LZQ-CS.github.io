@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>LZQ的博客 • Posts by &#34;hexo&#34; tag</title>
-        <link>http://example.com</link>
+        <link>https://lzq-cs.github.io</link>
         <description></description>
         <language>en</language>
         <pubDate>Sun, 16 Mar 2025 13:59:10 +0800</pubDate>
@@ -12,9 +12,9 @@
         <category>日语</category>
         <category>hexo</category>
         <item>
-            <guid isPermalink="true">http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+            <guid isPermalink="true">https://lzq-cs.github.io/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
             <title>用HEXO框架搭建了一个博客</title>
-            <link>http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+            <link>https://lzq-cs.github.io/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
             <category>hexo</category>
             <pubDate>Sun, 16 Mar 2025 13:59:10 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;hexo博客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo博客&#34;&gt;#&lt;/a&gt; HEXO 博客&lt;/h3&gt;

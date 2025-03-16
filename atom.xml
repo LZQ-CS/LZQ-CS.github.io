@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://lzq-cs.github.io</id>
     <title>LZQ的博客</title>
-    <link href="http://example.com" />
+    <link href="https://lzq-cs.github.io" />
     <updated>2025-03-16T09:31:34.000Z</updated>
     <category term="opencv" />
     <category term="win10系统" />
     <category term="日语" />
     <category term="hexo" />
     <entry>
-        <id>http://example.com/2025/03/16/win10%E7%B3%BB%E7%BB%9FU%E7%9B%98%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/win10%E7%B3%BB%E7%BB%9FU%E7%9B%98%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C/</id>
         <title>win10系统U盘如何制作</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/win10%E7%B3%BB%E7%BB%9FU%E7%9B%98%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/win10%E7%B3%BB%E7%BB%9FU%E7%9B%98%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C/"/>
         <content type="html">&lt;h3 id=&#34;win10系统镜像u盘制作方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#win10系统镜像u盘制作方法&#34;&gt;#&lt;/a&gt; Win10 系统镜像 U 盘制作方法&lt;/h3&gt;
 &lt;p&gt;电脑重装系统时需要用到系统镜像 U 盘，制作的方法如下：&lt;/p&gt;
 &lt;p&gt;1. 到微软的搜索引擎 bing 搜索 ——win10 官方镜像下载。&lt;/p&gt;
@@ -24,9 +24,9 @@
         <updated>2025-03-16T09:31:34.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</id>
         <title>开始学习CV</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/"/>
         <content type="html">&lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会😀，还是创业时期的小公司好啊！！！&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACf0Nn1pKkLk0q8BJRuGlyBUojqUq4mgACCr8xGxaluVYqwylaJmtODAEAAwIAA3cAAzYE&#34; alt=&#34;IMG_3384.JPG&#34;&gt;&lt;/p&gt;
 </content>
@@ -34,9 +34,9 @@
         <updated>2025-03-16T08:45:01.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
         <title>opencv入门了解</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
         <content type="html">&lt;h3 id=&#34;opencv简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#opencv简介&#34;&gt;#&lt;/a&gt; Opencv 简介&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OpenCV&lt;/strong&gt;（&lt;strong&gt;Open Source Computer Vision Library&lt;/strong&gt;）是一个开源的计算机视觉和机器学习库，由英特尔于 1999 年发起并维护，现已成为全球计算机视觉领域最流行的工具之一。它的核心目标是提供一套通用的算法和工具，帮助开发者快速实现与图像、视频处理相关的功能。&lt;/li&gt;
@@ -132,9 +132,9 @@
         <updated>2025-03-16T08:21:10.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/</id>
         <title>日语入门必会50音</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/"/>
         <content type="html">&lt;h3 id=&#34;50音的平假名和片假名&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#50音的平假名和片假名&#34;&gt;#&lt;/a&gt; 50 音的平假名和片假名&lt;/h3&gt;
 &lt;p&gt;上为平假名，下为片假名。&lt;/p&gt;
 &lt;p&gt;平假名是组成日语单词和句子的主要成分，片假名大多数是用来组成外来语（主要是音译英语单词，也有中文等其他国家语言）。日本人英语不好的话，对片假名其实也不认识（指日本老人。日本年轻人还是比较喜欢用片假名的）。&lt;/p&gt;
@@ -164,9 +164,9 @@
         <updated>2025-03-16T07:44:59.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
+        <id>https://lzq-cs.github.io/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
         <title>用HEXO框架搭建了一个博客</title>
-        <link rel="alternate" href="http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
         <content type="html">&lt;h3 id=&#34;hexo博客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo博客&#34;&gt;#&lt;/a&gt; HEXO 博客&lt;/h3&gt;
 &lt;p&gt;今天用 HEXO 框架搭建了一个自己的博客&lt;/p&gt;
 &lt;p&gt;后续准备买个轻量级云服务托管这个博客，毕竟 GitHub 托管访问太慢了 Q_Q&lt;/p&gt;
