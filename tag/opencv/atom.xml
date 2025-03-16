@@ -1,32 +1,27 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>LZQ的博客</title>
-        <link>http://example.com</link>
-        <description></description>
-        <language>en</language>
-        <pubDate>Sun, 16 Mar 2025 16:45:01 +0800</pubDate>
-        <lastBuildDate>Sun, 16 Mar 2025 16:45:01 +0800</lastBuildDate>
-        <category>opencv</category>
-        <category>日语</category>
-        <category>hexo</category>
-        <item>
-            <guid isPermalink="true">http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</guid>
-            <title>开始学习CV</title>
-            <link>http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</link>
-            <category>opencv</category>
-            <pubDate>Sun, 16 Mar 2025 16:45:01 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会 &lt;sup&gt;_&lt;/sup&gt;，还是小公司好啊！！！&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>LZQ的博客 • Posts by &#34;opencv&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2025-03-16T08:45:01.000Z</updated>
+    <category term="opencv" />
+    <category term="日语" />
+    <category term="hexo" />
+    <entry>
+        <id>http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</id>
+        <title>开始学习CV</title>
+        <link rel="alternate" href="http://example.com/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/"/>
+        <content type="html">&lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会 &lt;sup&gt;_&lt;/sup&gt;，还是小公司好啊！！！&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACf0Nn1pKkLk0q8BJRuGlyBUojqUq4mgACCr8xGxaluVYqwylaJmtODAEAAwIAA3cAAzYE&#34; alt=&#34;IMG_3384.JPG&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</guid>
-            <title>opencv入门了解</title>
-            <link>http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</link>
-            <category>opencv</category>
-            <pubDate>Sun, 16 Mar 2025 16:21:10 +0800</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;opencv简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#opencv简介&#34;&gt;#&lt;/a&gt; Opencv 简介&lt;/h3&gt;
+</content>
+        <category term="opencv" />
+        <updated>2025-03-16T08:45:01.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
+        <title>opencv入门了解</title>
+        <link rel="alternate" href="http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
+        <content type="html">&lt;h3 id=&#34;opencv简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#opencv简介&#34;&gt;#&lt;/a&gt; Opencv 简介&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OpenCV&lt;/strong&gt;（&lt;strong&gt;Open Source Computer Vision Library&lt;/strong&gt;）是一个开源的计算机视觉和机器学习库，由英特尔于 1999 年发起并维护，现已成为全球计算机视觉领域最流行的工具之一。它的核心目标是提供一套通用的算法和工具，帮助开发者快速实现与图像、视频处理相关的功能。&lt;/li&gt;
 &lt;/ul&gt;
@@ -116,52 +111,8 @@
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;105&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#石头剪刀布&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pip install opencv-python&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pip install opencv-contrib-python # 包含更多高级功能&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pip install opencv-python mediapipe&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;import cv2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;import mediapipe as mp&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;import numpy as np&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 初始化MediaPipe手部模型&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mp_hands = mp.solutions.hands&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hands = mp_hands.Hands(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    static_image_mode=False,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    max_num_hands=1,  # 只检测一只手（简化逻辑）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    min_detection_confidence=0.7,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    min_tracking_confidence=0.5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mp_drawing = mp.solutions.drawing_utils&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 打开摄像头&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cap = cv2.VideoCapture(0)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 定义手势判断函数&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;def get_gesture(hand_landmarks, img_shape):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    h, w = img_shape[:2]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    tip_ids = [4, 8, 12, 16, 20]  # 指尖关键点索引（拇指到小指）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    fingers = []&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # --- 判断拇指是否伸直（需特殊处理）---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    thumb_tip = hand_landmarks.landmark[tip_ids[0]]  # 拇指指尖&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    thumb_mcp = hand_landmarks.landmark[2]  # 拇指根部关节&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # 横向手势：拇指指尖x坐标超过根部关节则为伸直&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if thumb_tip.x &amp;gt; thumb_mcp.x:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        fingers.append(1)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    else:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        fingers.append(0)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # --- 判断其他四指是否伸直 ---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    for id in range(1, 5):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        tip = hand_landmarks.landmark[tip_ids[id]]  # 指尖&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        dip = hand_landmarks.landmark[tip_ids[id] - 1]  # 第二指节&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        # 指尖的y坐标 &amp;lt; 第二指节的y坐标 → 手指伸直&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if tip.y &amp;lt; dip.y:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            fingers.append(1)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        else:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            fingers.append(0)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # --- 根据伸直手指数量判断手势 ---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    total_fingers = sum(fingers)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # 手势逻辑规则&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if total_fingers == 0:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return &amp;quot;Rock&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    elif total_fingers == 5:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return &amp;quot;Paper&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    elif fingers[1] == 1 and fingers[2] == 1 and total_fingers == 2:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return &amp;quot;Scissors&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    else:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        return &amp;quot;Unknown&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 主循环&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;while cap.isOpened():&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ret, frame = cap.read()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if not ret:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        break&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # 处理图像&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    results = hands.process(rgb_frame)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if results.multi_hand_landmarks:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        for hand_landmarks in results.multi_hand_landmarks:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            # 绘制关键点&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            mp_drawing.draw_landmarks(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                frame, hand_landmarks, mp_hands.HAND_CONNECTIONS,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                mp_drawing.DrawingSpec(color=(0, 0, 255), thickness=2)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            )&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            # 计算边界框&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            x_coords = [int(lm.x * frame.shape[1]) for lm in hand_landmarks.landmark]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            y_coords = [int(lm.y * frame.shape[0]) for lm in hand_landmarks.landmark]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            x_min, x_max = max(0, min(x_coords)), min(frame.shape[1], max(x_coords))&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            y_min, y_max = max(0, min(y_coords)), min(frame.shape[0], max(y_coords))&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            # 识别手势&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            gesture = get_gesture(hand_landmarks, frame.shape)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            # 绘制结果&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            cv2.putText(frame, gesture, (x_min, y_min - 10),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # 显示画面&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cv2.imshow(&amp;#x27;Rock Paper Scissors&amp;#x27;, frame)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if cv2.waitKey(1) == 27:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        break&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cap.release()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cv2.destroyAllWindows()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/</guid>
-            <title>日语入门必会50音</title>
-            <link>http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/</link>
-            <category>日语</category>
-            <pubDate>Sun, 16 Mar 2025 15:44:59 +0800</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;50音的平假名和片假名&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#50音的平假名和片假名&#34;&gt;#&lt;/a&gt; 50 音的平假名和片假名&lt;/h3&gt;
-&lt;p&gt;上为平假名，下为片假名。&lt;/p&gt;
-&lt;p&gt;平假名是组成日语单词和句子的主要成分，片假名大多数是用来组成外来语（主要是音译英语单词，也有中文等其他国家语言）。日本人英语不好的话，对片假名其实也不认识（指日本老人。日本年轻人还是比较喜欢用片假名的）。&lt;/p&gt;
-&lt;h3 id=&#34;日语50音&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#日语50音&#34;&gt;#&lt;/a&gt; 日语 50 音&lt;/h3&gt;
-&lt;p&gt;あ　い　う　え　お&lt;/p&gt;
-&lt;p&gt;ア　イ　ウ　エ　オ&lt;/p&gt;
-&lt;p&gt;か　き　く　け　こ&lt;/p&gt;
-&lt;p&gt;カ　キ　ク　ケ　コ&lt;/p&gt;
-&lt;p&gt;さ　し　す　せ　そ&lt;/p&gt;
-&lt;p&gt;サ　シ　ス　セ　ソ&lt;/p&gt;
-&lt;p&gt;た　ち　つ　て　と&lt;/p&gt;
-&lt;p&gt;タ　チ　ツ　テ　ト&lt;/p&gt;
-&lt;p&gt;な　に　ぬ　ね　の&lt;/p&gt;
-&lt;p&gt;ナ　ニ　ヌ　ネ　ノ&lt;/p&gt;
-&lt;p&gt;は　ひ　ふ　へ　ほ&lt;/p&gt;
-&lt;p&gt;ハ　ヒ　フ　ヘ　ホ&lt;/p&gt;
-&lt;p&gt;ま　み　む　め　も&lt;/p&gt;
-&lt;p&gt;マ　ミ　ム　メ　モ&lt;/p&gt;
-&lt;p&gt;ら　り　る　れ　ろ&lt;/p&gt;
-&lt;p&gt;ラ　リ　ル　レ　ロ&lt;/p&gt;
-&lt;p&gt;や　ゆ　よ&lt;/p&gt;
-&lt;p&gt;ヤ　ユ　ヨ&lt;/p&gt;
-&lt;p&gt;わ　を　ん&lt;/p&gt;
-&lt;p&gt;ワ　ヲ　ン&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
-            <title>用HEXO框架搭建了一个博客</title>
-            <link>http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
-            <category>hexo</category>
-            <pubDate>Sun, 16 Mar 2025 13:59:10 +0800</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;hexo博客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo博客&#34;&gt;#&lt;/a&gt; HEXO 博客&lt;/h3&gt;
-&lt;p&gt;今天用 HEXO 框架搭建了一个自己的博客&lt;/p&gt;
-&lt;p&gt;后续准备买个轻量级云服务托管这个博客，毕竟 GitHub 托管访问太慢了 Q_Q&lt;/p&gt;
-&lt;p&gt;顺便用图床分享一张喜欢的壁纸：&lt;/p&gt;
-&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfs9n1DkxpwHyjL5Yqpap-9uxJMr7VAACbcMxG4CMqFarLm833njj4QEAAwIAA3cAAzYE&#34; alt=&#34;final-fantasy-15-lq.jpg&#34;&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="opencv" />
+        <updated>2025-03-16T08:21:10.000Z</updated>
+    </entry>
+</feed>

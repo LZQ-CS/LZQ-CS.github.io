@@ -1,0 +1,558 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="LZQ的博客" href="http://example.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="LZQ的博客" href="http://example.com/atom.xml" />
+<link rel="alternate" type="application/json" title="LZQ的博客" href="http://example.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="opencv" />
+
+
+<link rel="canonical" href="http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/">
+
+
+
+  <title>
+opencv入门了解 |
+LZQ's Blog = LZQ的博客 = 桜の花の落ちるスピード、秒速５センチメートル。</title>
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">opencv入门了解
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="Created: 2025-03-16 16:21:10">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">Posted on</span>
+    <time itemprop="dateCreated datePublished" datetime="2025-03-16T16:21:10+08:00">2025-03-16</time>
+  </span>
+  <span class="item" title="Symbols count in article">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span class="text">Symbols count in article</span>
+    <span>3.1k</span>
+    <span class="text">words</span>
+  </span>
+  <span class="item" title="Reading time">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span class="text">Reading time</span>
+    <span>3 mins.</span>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="Toggle navigation bar">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">LZQ's Blog</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfz1n1n2Uxnw1EQP6Fx3L7FhrGCLLNAAC4r4xGxaluVa3KM-VnIAYcwEAAwIAA3cAAzYE"></li>
+          <li class="item" data-background-image="https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfwln1nwLQMJ4LslO-uB23wABAgnIFskAAsa-MRsWpblW4H-pjaIHWyEBAAMCAAN3AAM2BA"></li>
+          <li class="item" data-background-image="https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfzdn1n1whaqeHBZJ-5pNObgJSp8WsQAC374xGxaluVZDBFPAhpnRlwEAAwIAA3cAAzYE"></li>
+          <li class="item" data-background-image="https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfyNn1nzqhAblOHAarrksiXw0cNVvPQAC1b4xGxaluVa2af4GJ5cxawEAAwIAA3cAAzYE"></li>
+          <li class="item" data-background-image="https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfs9n1DkxpwHyjL5Yqpap-9uxJMr7VAACbcMxG4CMqFarLm833njj4QEAAwIAA3cAAzYE"></li>
+          <li class="item" data-background-image="https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfytn1n0d_CGcO6yoTMvRDcFmGiVEUwAC2b4xGxaluVYUpJhxkOYtowEAAwIAA3cAAzYE"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">Home</a></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="en">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="黎さん">
+    <meta itemprop="description" content="桜の花の落ちるスピード、秒速５センチメートル。, ">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="LZQ的博客">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h3 id="opencv简介"><a class="markdownIt-Anchor" href="#opencv简介">#</a> Opencv 简介</h3>
+<ul>
+<li><strong>OpenCV</strong>（<strong>Open Source Computer Vision Library</strong>）是一个开源的计算机视觉和机器学习库，由英特尔于 1999 年发起并维护，现已成为全球计算机视觉领域最流行的工具之一。它的核心目标是提供一套通用的算法和工具，帮助开发者快速实现与图像、视频处理相关的功能。</li>
+</ul>
+<h3 id="opencv-能做什么"><a class="markdownIt-Anchor" href="#opencv-能做什么">#</a> <strong>OpenCV 能做什么？</strong></h3>
+<ul>
+<li>
+<p><strong>图像处理</strong>：滤波、边缘检测、颜色空间转换、几何变换（缩放、旋转）等。</p>
+</li>
+<li>
+<p><strong>视频分析</strong>：运动检测、目标跟踪、背景分离。</p>
+</li>
+<li>
+<p><strong>特征提取与匹配</strong>：检测图像中的关键点（如角点、边缘），用于图像拼接或物体识别。</p>
+</li>
+<li>
+<p><strong>目标检测与识别</strong>：人脸、车辆、文字等物体的检测（如使用 Haar 级联、深度学习模型）。</p>
+</li>
+<li>
+<p><strong>增强现实（AR）</strong>：通过摄像头实现虚拟物体叠加到现实场景。</p>
+</li>
+<li>
+<p><strong>3D 重建</strong>：从多张 2D 图像生成 3D 模型。</p>
+</li>
+<li>
+<p><strong>机器学习</strong>：支持分类、聚类等算法（如 SVM、KNN）。</p>
+<h3 id="opencv-的核心模块"><a class="markdownIt-Anchor" href="#opencv-的核心模块">#</a> <strong>OpenCV 的核心模块</strong></h3>
+<table>
+<thead>
+<tr>
+<th>模块名</th>
+<th>功能说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>core</code></td>
+<td>基础数据结构（如矩阵操作）</td>
+</tr>
+<tr>
+<td><code>imgproc</code></td>
+<td>图像处理（滤波、几何变换）</td>
+</tr>
+<tr>
+<td><code>video</code></td>
+<td>视频分析（运动估计、背景减除）</td>
+</tr>
+<tr>
+<td><code>features2d</code></td>
+<td>特征检测与匹配（SIFT、ORB）</td>
+</tr>
+<tr>
+<td><code>objdetect</code></td>
+<td>目标检测（人脸、二维码）</td>
+</tr>
+<tr>
+<td><code>ml</code></td>
+<td>机器学习算法（SVM、决策树）</td>
+</tr>
+<tr>
+<td><code>dnn</code></td>
+<td>深度学习模型部署（支持 ONNX、Torch）</td>
+</tr>
+<tr>
+<td><code>calib3d</code></td>
+<td>相机标定、3D 重建</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3 id="学习-opencv-的优势"><a class="markdownIt-Anchor" href="#学习-opencv-的优势">#</a> <strong>学习 OpenCV 的优势</strong></h3>
+<ul>
+<li><strong>低门槛</strong>：Python + OpenCV 只需几行代码即可实现复杂功能。</li>
+<li><strong>实战价值</strong>：广泛应用于工业、科研、消费电子等领域。</li>
+<li><strong>生态完善</strong>：与 NumPy、TensorFlow、PyTorch 等库无缝集成。</li>
+</ul>
+<h3 id="opencv入门"><a class="markdownIt-Anchor" href="#opencv入门">#</a> Opencv 入门</h3>
+<ol>
+<li>
+<p><strong>安装</strong>：Python 用户只需  <code>pip install opencv-python</code> 。</p>
+</li>
+<li>
+<p><strong>文档</strong>：<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm9wZW5jdi5vcmcvNC54Lw==">OpenCV 官方文档</span></p>
+</li>
+<li>
+<p><strong>教程</strong>：从读取图像、处理像素开始，逐步实现人脸检测、目标跟踪等。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#石头剪刀布</span><br><span class="line">pip install opencv-python</span><br><span class="line">pip install opencv-contrib-python # 包含更多高级功能</span><br><span class="line">pip install opencv-python mediapipe</span><br><span class="line"></span><br><span class="line">import cv2</span><br><span class="line">import mediapipe as mp</span><br><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line"># 初始化MediaPipe手部模型</span><br><span class="line">mp_hands = mp.solutions.hands</span><br><span class="line">hands = mp_hands.Hands(</span><br><span class="line">    static_image_mode=False,</span><br><span class="line">    max_num_hands=1,  # 只检测一只手（简化逻辑）</span><br><span class="line">    min_detection_confidence=0.7,</span><br><span class="line">    min_tracking_confidence=0.5</span><br><span class="line">)</span><br><span class="line">mp_drawing = mp.solutions.drawing_utils</span><br><span class="line"></span><br><span class="line"># 打开摄像头</span><br><span class="line">cap = cv2.VideoCapture(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 定义手势判断函数</span><br><span class="line">def get_gesture(hand_landmarks, img_shape):</span><br><span class="line">    h, w = img_shape[:2]</span><br><span class="line">    tip_ids = [4, 8, 12, 16, 20]  # 指尖关键点索引（拇指到小指）</span><br><span class="line">    fingers = []</span><br><span class="line"></span><br><span class="line">    # --- 判断拇指是否伸直（需特殊处理）---</span><br><span class="line">    thumb_tip = hand_landmarks.landmark[tip_ids[0]]  # 拇指指尖</span><br><span class="line">    thumb_mcp = hand_landmarks.landmark[2]  # 拇指根部关节</span><br><span class="line"></span><br><span class="line">    # 横向手势：拇指指尖x坐标超过根部关节则为伸直</span><br><span class="line">    if thumb_tip.x &gt; thumb_mcp.x:</span><br><span class="line">        fingers.append(1)</span><br><span class="line">    else:</span><br><span class="line">        fingers.append(0)</span><br><span class="line"></span><br><span class="line">    # --- 判断其他四指是否伸直 ---</span><br><span class="line">    for id in range(1, 5):</span><br><span class="line">        tip = hand_landmarks.landmark[tip_ids[id]]  # 指尖</span><br><span class="line">        dip = hand_landmarks.landmark[tip_ids[id] - 1]  # 第二指节</span><br><span class="line"></span><br><span class="line">        # 指尖的y坐标 &lt; 第二指节的y坐标 → 手指伸直</span><br><span class="line">        if tip.y &lt; dip.y:</span><br><span class="line">            fingers.append(1)</span><br><span class="line">        else:</span><br><span class="line">            fingers.append(0)</span><br><span class="line"></span><br><span class="line">    # --- 根据伸直手指数量判断手势 ---</span><br><span class="line">    total_fingers = sum(fingers)</span><br><span class="line"></span><br><span class="line">    # 手势逻辑规则</span><br><span class="line">    if total_fingers == 0:</span><br><span class="line">        return &quot;Rock&quot;</span><br><span class="line">    elif total_fingers == 5:</span><br><span class="line">        return &quot;Paper&quot;</span><br><span class="line">    elif fingers[1] == 1 and fingers[2] == 1 and total_fingers == 2:</span><br><span class="line">        return &quot;Scissors&quot;</span><br><span class="line">    else:</span><br><span class="line">        return &quot;Unknown&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 主循环</span><br><span class="line">while cap.isOpened():</span><br><span class="line">    ret, frame = cap.read()</span><br><span class="line">    if not ret:</span><br><span class="line">        break</span><br><span class="line"></span><br><span class="line">    # 处理图像</span><br><span class="line">    rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)</span><br><span class="line">    results = hands.process(rgb_frame)</span><br><span class="line"></span><br><span class="line">    if results.multi_hand_landmarks:</span><br><span class="line">        for hand_landmarks in results.multi_hand_landmarks:</span><br><span class="line">            # 绘制关键点</span><br><span class="line">            mp_drawing.draw_landmarks(</span><br><span class="line">                frame, hand_landmarks, mp_hands.HAND_CONNECTIONS,</span><br><span class="line">                mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2),</span><br><span class="line">                mp_drawing.DrawingSpec(color=(0, 0, 255), thickness=2)</span><br><span class="line">            )</span><br><span class="line"></span><br><span class="line">            # 计算边界框</span><br><span class="line">            x_coords = [int(lm.x * frame.shape[1]) for lm in hand_landmarks.landmark]</span><br><span class="line">            y_coords = [int(lm.y * frame.shape[0]) for lm in hand_landmarks.landmark]</span><br><span class="line">            x_min, x_max = max(0, min(x_coords)), min(frame.shape[1], max(x_coords))</span><br><span class="line">            y_min, y_max = max(0, min(y_coords)), min(frame.shape[0], max(y_coords))</span><br><span class="line"></span><br><span class="line">            # 识别手势</span><br><span class="line">            gesture = get_gesture(hand_landmarks, frame.shape)</span><br><span class="line"></span><br><span class="line">            # 绘制结果</span><br><span class="line">            cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)</span><br><span class="line">            cv2.putText(frame, gesture, (x_min, y_min - 10),</span><br><span class="line">                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)</span><br><span class="line"></span><br><span class="line">    # 显示画面</span><br><span class="line">    cv2.imshow(&#x27;Rock Paper Scissors&#x27;, frame)</span><br><span class="line">    if cv2.waitKey(1) == 27:</span><br><span class="line">        break</span><br><span class="line"></span><br><span class="line">cap.release()</span><br><span class="line">cv2.destroyAllWindows()</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+
+      <div class="tags">
+          <a href="/tags/opencv/" rel="tag"><i class="ic i-tag"></i> opencv</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2025-03-16 16:37:15" itemprop="dateModified" datetime="2025-03-16T16:37:15+08:00">2025-03-16</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> Donate</button>
+  <p>Give me a cup of [coffee]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="黎さん WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>Post author:  </strong>黎さん <i class="ic i-at"><em>@</em></i>LZQ的博客
+  </li>
+  <li class="link">
+    <strong>Post link: </strong>
+    <a href="http://example.com/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/" title="opencv入门了解">http://example.com/2025/03/16/opencv入门了解/</a>
+  </li>
+  <li class="license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;img.131213.xyz&#x2F;api&#x2F;cfile&#x2F;AgACAgUAAx0Eflp52gACfz9n1n2c1LvXgKgh2NLKEp4jEsh56wAC474xGxaluVbmMvGIk39FCAEAAwIAA3cAAzYE" title="日语入门必会50音">
+  <span class="type">Previous Post</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>日语入门必会50音</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giph4baakhj20zk0m8h5q.jpg" title="开始学习CV">
+  <span class="type">Next Post</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>开始学习CV</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="Contents">
+          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#opencv%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text"> Opencv 简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#opencv-%E8%83%BD%E5%81%9A%E4%BB%80%E4%B9%88"><span class="toc-number">2.</span> <span class="toc-text"> OpenCV 能做什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#opencv-%E7%9A%84%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97"><span class="toc-number">3.</span> <span class="toc-text"> OpenCV 的核心模块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0-opencv-%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-number">4.</span> <span class="toc-text"> 学习 OpenCV 的优势</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#opencv%E5%85%A5%E9%97%A8"><span class="toc-number">5.</span> <span class="toc-text"> Opencv 入门</span></a></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="Related">
+      </div>
+      <div class="overview panel" data-title="Overview">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="黎さん"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">黎さん</p>
+  <div class="description" itemprop="description"></div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">4</span>
+        <span class="name">posts</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">3</span>
+        <span class="name">tags</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item bilibili" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vODI2ODE4NDY/c3BtX2lkX2Zyb209MzMzLjEwMDcuMC4w" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;82681846?spm_id_from&#x3D;333.1007.0.0"><i class="ic i-bilibili"></i></span>
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL0xaUS1DUw==" title="https:&#x2F;&#x2F;github.com&#x2F;LZQ-CS"><i class="ic i-github"></i></span>
+      <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS9tYW8tcWl1LWNoYW5nLWx6cQ==" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;mao-qiu-chang-lzq"><i class="ic i-zhihu"></i></span>
+      <span class="exturl item music" data-url="aHR0cHM6Ly9tdXNpYy4xNjMuY29tLyMvdXNlci9ob21lP2lkPTMzNjM5NDU5MTA=" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;3363945910"><i class="ic i-cloud-music"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>Home</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>About</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>Posts</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a>
+  </li>
+
+  </ul>
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a>
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>Random Posts</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/03/16/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/" title="opencv入门了解">opencv入门了解</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/" title="开始学习CV">开始学习CV</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/" title="日语入门必会50音">日语入门必会50音</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" title="用HEXO框架搭建了一个博客">用HEXO框架搭建了一个博客</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>Recent Comments</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">黎さん @ LZQ's Blog</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="Symbols count total">3k words</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="Reading time total">3 mins.</span>
+  </div>
+  <div class="powered-by">
+    Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2025/03/16/opencv入门了解/',
+    favicon: {
+      show: "（●´3｀●）Goooood",
+      hide: "(´Д｀)Booooom"
+    },
+    search : {
+      placeholder: "Search for Posts",
+      empty: "We didn't find any results for the search: ${query}",
+      stats: "${hits} results found in ${time} ms"
+    },
+    valine: true,fancybox: true,
+    copyright: 'Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
