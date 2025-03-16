@@ -1,0 +1,36 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "LZQ的博客",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/",
+            "url": "http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/",
+            "title": "日语入门必会50音",
+            "date_published": "2025-03-16T07:44:59.000Z",
+            "content_html": "<h3 id=\"50音的平假名和片假名\"><a class=\"markdownIt-Anchor\" href=\"#50音的平假名和片假名\">#</a> 50 音的平假名和片假名</h3>\n<p>上为平假名，下为片假名。</p>\n<p>平假名是组成日语单词和句子的主要成分，片假名大多数是用来组成外来语（主要是音译英语单词，也有中文等其他国家语言）。日本人英语不好的话，对片假名其实也不认识（指日本老人。日本年轻人还是比较喜欢用片假名的）。</p>\n<h3 id=\"日语50音\"><a class=\"markdownIt-Anchor\" href=\"#日语50音\">#</a> 日语 50 音</h3>\n<p>あ　い　う　え　お</p>\n<p>ア　イ　ウ　エ　オ</p>\n<p>か　き　く　け　こ</p>\n<p>カ　キ　ク　ケ　コ</p>\n<p>さ　し　す　せ　そ</p>\n<p>サ　シ　ス　セ　ソ</p>\n<p>た　ち　つ　て　と</p>\n<p>タ　チ　ツ　テ　ト</p>\n<p>な　に　ぬ　ね　の</p>\n<p>ナ　ニ　ヌ　ネ　ノ</p>\n<p>は　ひ　ふ　へ　ほ</p>\n<p>ハ　ヒ　フ　ヘ　ホ</p>\n<p>ま　み　む　め　も</p>\n<p>マ　ミ　ム　メ　モ</p>\n<p>ら　り　る　れ　ろ</p>\n<p>ラ　リ　ル　レ　ロ</p>\n<p>や　ゆ　よ</p>\n<p>ヤ　ユ　ヨ</p>\n<p>わ　を　ん</p>\n<p>ワ　ヲ　ン</p>\n",
+            "tags": [
+                "日语"
+            ]
+        },
+        {
+            "id": "http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/",
+            "url": "http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/",
+            "title": "用HEXO框架搭建了一个博客",
+            "date_published": "2025-03-16T05:59:10.000Z",
+            "content_html": "<h3 id=\"hexo博客\"><a class=\"markdownIt-Anchor\" href=\"#hexo博客\">#</a> HEXO 博客</h3>\n<p>今天用 HEXO 框架搭建了一个自己的博客</p>\n<p>后续准备买个轻量级云服务托管这个博客，毕竟 GitHub 托管访问太慢了 Q_Q</p>\n<p>顺便用图床分享一张喜欢的壁纸：</p>\n<img data-src=\"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfs9n1DkxpwHyjL5Yqpap-9uxJMr7VAACbcMxG4CMqFarLm833njj4QEAAwIAA3cAAzYE\" alt=\"final-fantasy-15-lq.jpg\">\n",
+            "tags": [
+                "hexo"
+            ]
+        },
+        {
+            "id": "http://example.com/2025/03/16/hello-world/",
+            "url": "http://example.com/2025/03/16/hello-world/",
+            "title": "Hello World",
+            "date_published": "2025-03-16T03:55:47.069Z",
+            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"markdownIt-Anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"markdownIt-Anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"markdownIt-Anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"markdownIt-Anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"markdownIt-Anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
+            "tags": []
+        }
+    ]
+}

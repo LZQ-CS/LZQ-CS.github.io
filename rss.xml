@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>LZQ的博客</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Sun, 16 Mar 2025 15:44:59 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 15:44:59 +0800</lastBuildDate>
+        <category>日语</category>
+        <category>hexo</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/</guid>
+            <title>日语入门必会50音</title>
+            <link>http://example.com/2025/03/16/%E6%97%A5%E8%AF%AD%E5%85%A5%E9%97%A8%E5%BF%85%E4%BC%9A50%E9%9F%B3/</link>
+            <category>日语</category>
+            <pubDate>Sun, 16 Mar 2025 15:44:59 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;50音的平假名和片假名&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#50音的平假名和片假名&#34;&gt;#&lt;/a&gt; 50 音的平假名和片假名&lt;/h3&gt;
+&lt;p&gt;上为平假名，下为片假名。&lt;/p&gt;
+&lt;p&gt;平假名是组成日语单词和句子的主要成分，片假名大多数是用来组成外来语（主要是音译英语单词，也有中文等其他国家语言）。日本人英语不好的话，对片假名其实也不认识（指日本老人。日本年轻人还是比较喜欢用片假名的）。&lt;/p&gt;
+&lt;h3 id=&#34;日语50音&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#日语50音&#34;&gt;#&lt;/a&gt; 日语 50 音&lt;/h3&gt;
+&lt;p&gt;あ　い　う　え　お&lt;/p&gt;
+&lt;p&gt;ア　イ　ウ　エ　オ&lt;/p&gt;
+&lt;p&gt;か　き　く　け　こ&lt;/p&gt;
+&lt;p&gt;カ　キ　ク　ケ　コ&lt;/p&gt;
+&lt;p&gt;さ　し　す　せ　そ&lt;/p&gt;
+&lt;p&gt;サ　シ　ス　セ　ソ&lt;/p&gt;
+&lt;p&gt;た　ち　つ　て　と&lt;/p&gt;
+&lt;p&gt;タ　チ　ツ　テ　ト&lt;/p&gt;
+&lt;p&gt;な　に　ぬ　ね　の&lt;/p&gt;
+&lt;p&gt;ナ　ニ　ヌ　ネ　ノ&lt;/p&gt;
+&lt;p&gt;は　ひ　ふ　へ　ほ&lt;/p&gt;
+&lt;p&gt;ハ　ヒ　フ　ヘ　ホ&lt;/p&gt;
+&lt;p&gt;ま　み　む　め　も&lt;/p&gt;
+&lt;p&gt;マ　ミ　ム　メ　モ&lt;/p&gt;
+&lt;p&gt;ら　り　る　れ　ろ&lt;/p&gt;
+&lt;p&gt;ラ　リ　ル　レ　ロ&lt;/p&gt;
+&lt;p&gt;や　ゆ　よ&lt;/p&gt;
+&lt;p&gt;ヤ　ユ　ヨ&lt;/p&gt;
+&lt;p&gt;わ　を　ん&lt;/p&gt;
+&lt;p&gt;ワ　ヲ　ン&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+            <title>用HEXO框架搭建了一个博客</title>
+            <link>http://example.com/2025/03/16/%E7%94%A8HEXO%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+            <category>hexo</category>
+            <pubDate>Sun, 16 Mar 2025 13:59:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;hexo博客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo博客&#34;&gt;#&lt;/a&gt; HEXO 博客&lt;/h3&gt;
+&lt;p&gt;今天用 HEXO 框架搭建了一个自己的博客&lt;/p&gt;
+&lt;p&gt;后续准备买个轻量级云服务托管这个博客，毕竟 GitHub 托管访问太慢了 Q_Q&lt;/p&gt;
+&lt;p&gt;顺便用图床分享一张喜欢的壁纸：&lt;/p&gt;
+&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACfs9n1DkxpwHyjL5Yqpap-9uxJMr7VAACbcMxG4CMqFarLm833njj4QEAAwIAA3cAAzYE&#34; alt=&#34;final-fantasy-15-lq.jpg&#34;&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2025/03/16/hello-world/</guid>
+            <title>Hello World</title>
+            <link>http://example.com/2025/03/16/hello-world/</link>
+            <pubDate>Sun, 16 Mar 2025 11:55:47 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
