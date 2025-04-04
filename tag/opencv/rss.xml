@@ -5,22 +5,11 @@
         <link>https://lzq-cs.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 16 Mar 2025 16:45:01 +0800</pubDate>
-        <lastBuildDate>Sun, 16 Mar 2025 16:45:01 +0800</lastBuildDate>
-        <category>opencv</category>
-        <category>win10系统</category>
-        <category>日语</category>
+        <pubDate>Sun, 16 Mar 2025 16:21:10 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 16:21:10 +0800</lastBuildDate>
         <category>hexo</category>
-        <item>
-            <guid isPermalink="true">https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</guid>
-            <title>开始学习CV</title>
-            <link>https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</link>
-            <category>opencv</category>
-            <pubDate>Sun, 16 Mar 2025 16:45:01 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会😀，还是创业时期的小公司好啊！！！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACf0Nn1pKkLk0q8BJRuGlyBUojqUq4mgACCr8xGxaluVYqwylaJmtODAEAAwIAA3cAAzYE&#34; alt=&#34;IMG_3384.JPG&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
+        <category>日语</category>
+        <category>opencv</category>
         <item>
             <guid isPermalink="true">https://lzq-cs.github.io/2025/03/16/Opencv/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</guid>
             <title>opencv入门了解</title>

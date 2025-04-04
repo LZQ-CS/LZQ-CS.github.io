@@ -5,37 +5,11 @@
         <link>https://lzq-cs.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 16 Mar 2025 17:31:34 +0800</pubDate>
-        <lastBuildDate>Sun, 16 Mar 2025 17:31:34 +0800</lastBuildDate>
-        <category>opencv</category>
-        <category>win10系统</category>
-        <category>日语</category>
+        <pubDate>Sun, 16 Mar 2025 16:21:10 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 16:21:10 +0800</lastBuildDate>
         <category>hexo</category>
-        <item>
-            <guid isPermalink="true">https://lzq-cs.github.io/2025/03/16/win10%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8FU%E7%9B%98%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C/</guid>
-            <title>win10系统镜像U盘如何制作</title>
-            <link>https://lzq-cs.github.io/2025/03/16/win10%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8FU%E7%9B%98%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C/</link>
-            <category>win10系统</category>
-            <pubDate>Sun, 16 Mar 2025 17:31:34 +0800</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;win10系统镜像u盘制作方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#win10系统镜像u盘制作方法&#34;&gt;#&lt;/a&gt; Win10 系统镜像 U 盘制作方法&lt;/h3&gt;
-&lt;p&gt;电脑重装系统时需要用到系统镜像 U 盘，制作的方法如下：&lt;/p&gt;
-&lt;p&gt;1. 到微软的搜索引擎 bing 搜索 ——win10 官方镜像下载。&lt;/p&gt;
-&lt;p&gt;2. 找到这个网址 https://www.microsoft.com/zh-cn/software-download/windows10&lt;/p&gt;
-&lt;p&gt;3. 确认版本点击下载。&lt;/p&gt;
-&lt;p&gt;4. 系统制作工具下载好后，插上一个新买的 u 盘（确保有 8GB 以上的内存），旧 U 盘需要先格式化。&lt;/p&gt;
-&lt;p&gt;5. 打开系统制作工具，选择系统版本，一般默认推荐的就行。然后，选到 U 盘，等进度条到 100% 就完成了。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</guid>
-            <title>开始学习CV</title>
-            <link>https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</link>
-            <category>opencv</category>
-            <pubDate>Sun, 16 Mar 2025 16:45:01 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会😀，还是创业时期的小公司好啊！！！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACf0Nn1pKkLk0q8BJRuGlyBUojqUq4mgACCr8xGxaluVYqwylaJmtODAEAAwIAA3cAAzYE&#34; alt=&#34;IMG_3384.JPG&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
+        <category>日语</category>
+        <category>opencv</category>
         <item>
             <guid isPermalink="true">https://lzq-cs.github.io/2025/03/16/Opencv/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</guid>
             <title>opencv入门了解</title>

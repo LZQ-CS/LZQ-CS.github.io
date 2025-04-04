@@ -3,21 +3,10 @@
     <id>https://lzq-cs.github.io</id>
     <title>LZQ的博客 • Posts by &#34;opencv&#34; tag</title>
     <link href="https://lzq-cs.github.io" />
-    <updated>2025-03-16T08:45:01.000Z</updated>
-    <category term="opencv" />
-    <category term="win10系统" />
-    <category term="日语" />
+    <updated>2025-03-16T08:21:10.000Z</updated>
     <category term="hexo" />
-    <entry>
-        <id>https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/</id>
-        <title>开始学习CV</title>
-        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0CV/"/>
-        <content type="html">&lt;p&gt;从 PDD 买了几本书开始学习机器视觉的相关知识，为以后的工作做准备。因为我的老板给了我一个机会😀，还是创业时期的小公司好啊！！！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACf0Nn1pKkLk0q8BJRuGlyBUojqUq4mgACCr8xGxaluVYqwylaJmtODAEAAwIAA3cAAzYE&#34; alt=&#34;IMG_3384.JPG&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="opencv" />
-        <updated>2025-03-16T08:45:01.000Z</updated>
-    </entry>
+    <category term="日语" />
+    <category term="opencv" />
     <entry>
         <id>https://lzq-cs.github.io/2025/03/16/Opencv/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
         <title>opencv入门了解</title>
