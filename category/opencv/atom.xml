@@ -5,12 +5,12 @@
     <link href="https://lzq-cs.github.io" />
     <updated>2025-03-16T08:21:10.000Z</updated>
     <category term="hexo" />
-    <category term="opencv" />
+    <category term="Opencv" />
     <category term="日语" />
     <entry>
-        <id>https://lzq-cs.github.io/2025/03/16/Opencv/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
-        <title>opencv入门了解</title>
-        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/Opencv/opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
+        <id>https://lzq-cs.github.io/2025/03/16/Opencv/Opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/</id>
+        <title>Opencv入门了解</title>
+        <link rel="alternate" href="https://lzq-cs.github.io/2025/03/16/Opencv/Opencv%E5%85%A5%E9%97%A8%E4%BA%86%E8%A7%A3/"/>
         <content type="html">&lt;h3 id=&#34;opencv简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#opencv简介&#34;&gt;#&lt;/a&gt; Opencv 简介&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OpenCV&lt;/strong&gt;（&lt;strong&gt;Open Source Computer Vision Library&lt;/strong&gt;）是一个开源的计算机视觉和机器学习库，由英特尔于 1999 年发起并维护，现已成为全球计算机视觉领域最流行的工具之一。它的核心目标是提供一套通用的算法和工具，帮助开发者快速实现与图像、视频处理相关的功能。&lt;/li&gt;
@@ -102,7 +102,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="opencv" />
+        <category term="Opencv" />
         <updated>2025-03-16T08:21:10.000Z</updated>
     </entry>
 </feed>
